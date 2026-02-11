@@ -1,11 +1,23 @@
-import React from 'react'
-import File from './File'
-const componentName = () => {
+
+import Navbar from "./Navbar";
+import Hero from "./Hero";
+import About from "./About";
+import Projects from "./Projects";
+import Contact from "./Contact";
+import Footer from "./Footer";
+function App () {
   return (
+
     <>
-      <File/>
+    
+    <Navbar/>
+    <Hero/>
+    <About/>
+    <Projects/>
+    <Contact/>
+    <Footer/>
+    
     </>
   )
 }
-
-export default componentName
+export default App;
